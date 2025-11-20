@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fujitsu",
+    "module": "VirtualHome",
+    "version": "0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VirtualHome-0.6.jar",
+          "url": "VirtualHome-0.6.jar",
+          "size": 141684,
+          "sha512": "b91afe29f178cbf3bd3e1045f2bd4338af566254c62f94e0a451384bd9e307da849a3ab29b18fea7ef88afc6ecd5db782d38dcb446ea05bf8c288dd8f2ac4c14",
+          "sha256": "c1cab596412d7ed7b286e7e82f482dd1a13f812382d347607d6c77436118e330",
+          "sha1": "92c03ffda09c0a256353447097fde4b0aea3f70a",
+          "md5": "a9a4465ac1b8412fbcedcd91ba7ed606"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-jvm",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging-jvm",
+          "version": {
+            "requires": "7.0.13"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "VirtualHome-0.6.jar",
+          "url": "VirtualHome-0.6.jar",
+          "size": 141684,
+          "sha512": "b91afe29f178cbf3bd3e1045f2bd4338af566254c62f94e0a451384bd9e307da849a3ab29b18fea7ef88afc6ecd5db782d38dcb446ea05bf8c288dd8f2ac4c14",
+          "sha256": "c1cab596412d7ed7b286e7e82f482dd1a13f812382d347607d6c77436118e330",
+          "sha1": "92c03ffda09c0a256353447097fde4b0aea3f70a",
+          "md5": "a9a4465ac1b8412fbcedcd91ba7ed606"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "VirtualHome-0.6-all.jar",
+          "url": "VirtualHome-0.6-all.jar",
+          "size": 2410302,
+          "sha512": "3cfca807b0a435b50a54b05652809254e0078d457ea8e05deb8b24ca75c0a1c204aac343107f589d23f9b6a3f883b73b6726854288f39314fcf735e0371b12af",
+          "sha256": "b44d617fde689e327467f04697be12366ddfa5867c05b9d06397f403027c30f2",
+          "sha1": "7ca3b6d8643432b9c281cccb46a17dbe5b5bd320",
+          "md5": "a8ec296ebe76795d642d02e90f86eaf5"
+        }
+      ]
+    }
+  ]
+}
